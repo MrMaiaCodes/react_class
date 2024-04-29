@@ -1,3 +1,4 @@
+
 import React from 'react';
 import logo from './logo.svg';
 import HomePage from './pages/Home';
@@ -8,7 +9,7 @@ function App() {
 
     <div className="App">
       <HomePage>
-      
+
       </HomePage>
     </div>
   );

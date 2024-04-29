@@ -1,16 +1,13 @@
-import { useState } from "react";
-import { Header } from "../components/Header";
+import {useState} from "react";
+import {Header} from "../components/Header";
 export default function HomePage(props: any) {
-    
-    return(
-     <div
-        style = {{}}
+   return(
+      <div
+      style = {{}}
+      >
+         <Header>
 
-     >
-        <Header>
-            
-        </Header>
-
-     </div>   
-    )
+         </Header>
+      </div>
+   )
 }

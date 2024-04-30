@@ -1,11 +1,10 @@
 import {useState} from "react";
-import {Header} from "../components/Header";
-export default function HomePage(props: any) {
+import {Header} from "../components/Header"
+export default function Homepage(props: any) {
    return(
-      <div
-      style = {{}}
-      >
+      <div style = {{}}>
          <Header>
+
 
          </Header>
       </div>

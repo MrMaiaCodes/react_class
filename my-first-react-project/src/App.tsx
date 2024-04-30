@@ -1,5 +1,5 @@
-
-import React from 'react';
+/**
+ * import React from 'react';
 import logo from './logo.svg';
 import HomePage from './pages/Home';
 import {Header} from './components/Header';
@@ -16,3 +16,18 @@ function App() {
 }
 //HomePage
 export default App;
+ */
+import React from 'react';
+import logo from './logo.svg';
+import HomePage from './pages/Home';
+import {Header} from './components/Header';
+import './Apps.css';
+export function App() {
+  return (
+    <div className = "App">
+      <HomePage>
+
+      </HomePage>
+    </div>
+  );
+}

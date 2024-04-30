@@ -1,19 +1,19 @@
+import { Button } from "./Button";
+
 export const Header = (props: any) => {
     return (
         <div
             style={{
                 backgroundColor: "red",
-                height: "30px"
+                height: "60px"
             }}
         >
-            <button>
-            home
-            </button>
-            <button>
-                about me
-            </button><button>
-                about the app!
-            </button>
+            
+            <Button text={"test"} textColor={"red"} onClickButton={() => {}}/>
+                <Button text={"home"} textColor={"red"} onClickButton={() => {}}/>
+                <Button text={"about me"} textColor={"red"} onClickButton={() => {}}/>
+                <Button text={"about the app"} textColor={"red"} onClickButton={() => {}}/>
+        
         </div>
     )
 };

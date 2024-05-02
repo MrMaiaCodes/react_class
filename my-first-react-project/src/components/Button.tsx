@@ -14,7 +14,7 @@ export const Button = (props: ButtonTemplateProps) => {
             borderRadius: "20px",
             margin: "8px"
         }}>
-            {text}
+        {text}
         </button>
     )
 }
